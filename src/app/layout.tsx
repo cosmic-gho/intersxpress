@@ -17,8 +17,69 @@ const headingFont = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Inter Express Service | Logistics & Transportation Company",
-  description: "Inter Express Service logistics and transportation website.",
+  metadataBase: new URL("https://www.interexpressservice.site"),
+  title: {
+    default: "Inter Express Service | Worldwide Shipping Solutions",
+    template: "%s | Inter Express Service",
+  },
+  description:
+    "Inter Express Service provides worldwide shipping solutions, package tracking, freight forwarding, secure deliveries, and logistics support for domestic and international shipments.",
+  keywords: [
+    "Inter Express Service",
+    "worldwide shipping",
+    "logistics company",
+    "courier service",
+    "package tracking",
+    "freight forwarding",
+    "international delivery",
+    "domestic shipping",
+    "shipment tracking",
+  ],
+  applicationName: "Inter Express Service",
+  category: "business",
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://www.interexpressservice.site",
+    siteName: "Inter Express Service",
+    title: "Inter Express Service | Worldwide Shipping Solutions",
+    description:
+      "Worldwide shipping solutions with secure logistics support, parcel tracking, freight services, and international delivery management.",
+    images: [
+      {
+        url: "/assets/img/logo-inter.jepg",
+        width: 1024,
+        height: 683,
+        alt: "Inter Express Service logo",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Inter Express Service | Worldwide Shipping Solutions",
+    description:
+      "Track shipments, manage deliveries, and access worldwide logistics support with Inter Express Service.",
+    images: ["/assets/img/logo-inter.jepg"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
+  icons: {
+    icon: "/assets/img/favicon.png",
+    shortcut: "/assets/img/favicon.png",
+    apple: "/assets/img/favicon.png",
+  },
 };
 
 export default function RootLayout({
