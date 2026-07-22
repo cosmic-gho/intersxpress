@@ -62,7 +62,7 @@ export function TrackingSearchForm({ variant = "page" }: TrackingSearchFormProps
         />
         {variant === "page" ? (
           <p className="tracking-help">
-            Need help? Contact <a href="mailto:support@Fastlane-express.live">support@Fastlane-express.live</a>
+            Need help? Contact <a href="mailto:support@interexpressservice.site">support@interexpressservice.site</a>
           </p>
         ) : null}
         {error ? <p className="form-error">{error}</p> : null}
