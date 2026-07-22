@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Lock, Mail, MapPin, Menu, PackageSearch, Phone, X } from "lucide-react";
+import { Mail, MapPin, Menu, PackageSearch, Phone, X } from "lucide-react";
 import { useState } from "react";
 
 import { companyInfo, navItems } from "@/lib/site-data";
