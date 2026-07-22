@@ -50,7 +50,7 @@ export const metadata: Metadata = {
       "Worldwide shipping solutions with secure logistics support, parcel tracking, freight services, and international delivery management.",
     images: [
       {
-        url: "/assets/img/logo-inter.jepg",
+        url: "/assets/img/logo-inter.jpeg",
         width: 1024,
         height: 683,
         alt: "Inter Express Service logo",
@@ -62,7 +62,7 @@ export const metadata: Metadata = {
     title: "Inter Express Service | Worldwide Shipping Solutions",
     description:
       "Track shipments, manage deliveries, and access worldwide logistics support with Inter Express Service.",
-    images: ["/assets/img/logo-inter.jepg"],
+    images: ["/assets/img/logo-inter.jpeg"],
   },
   robots: {
     index: true,

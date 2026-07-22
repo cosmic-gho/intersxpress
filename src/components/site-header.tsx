@@ -34,7 +34,7 @@ export function SiteHeader() {
 
       <div className="navbar-shell shell">
         <Link className="brand-mark" href="/">
-          <img src="/assets/img/logo-inter.jepg" alt="Inter Express Service" />
+          <img src="/assets/img/logo-inter.jpeg" alt="Inter Express Service" />
         </Link>
 
         <button

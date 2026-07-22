@@ -9,7 +9,7 @@ export function SiteFooter() {
       <div className="shell footer-grid">
         <div className="footer-card">
           <Link className="footer-logo" href="/">
-            <img src="/assets/img/logo-inter.jepg" alt="Inter Express Service" />
+            <img src="/assets/img/logo-inter.jpeg" alt="Inter Express Service" />
           </Link>
           <p>
             Inter Express Service is a trusted logistics company. Our teams help you
