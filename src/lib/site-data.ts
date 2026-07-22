@@ -54,7 +54,7 @@ export type TrackingRecord = {
 export const companyInfo = {
   name: "Inter Express Service",
   email: "support@interexpressservice.site",
-  phone: "+17343834919",
+  phone: "",
   address: "9170 Millbrook Rd, New jersey, IL 60541",
 };
 

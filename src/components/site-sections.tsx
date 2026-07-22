@@ -46,7 +46,7 @@ const contactCards = [
   {
     icon: <Phone size={26} />,
     title: "Call Us:",
-    content: "Tel. +17343834919",
+    content: "Tel. ",
     href: `tel:${companyInfo.phone}`,
   },
   {
